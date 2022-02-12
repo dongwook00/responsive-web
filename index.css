@@ -16,9 +16,10 @@ body {
   margin: 0 auto;
 }
 
-#wrap p {
-  width: 52.083333333333336%;
-  padding: 50px 5.208333333333334%;
-  margin: 0 auto;
+#wrap div {
+  width: calc(100% - 100px);
+  height: 200px;
+  margin: 50px;
   background: #f7e041;
+  
 }
