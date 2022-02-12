@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 62.5%; /* 960px */
+  height: 500px;
+  margin: 0 auto;
+}
+.container {
+  width: 93.75%;
+  height: 492px;
+  margin: 0 auto;
+}
+.container div {
+  display: inline-block;
+  height: 100%;
+}
+.container div:first-child {
+  width: 33.33333333333333%;
+  background: #e75d5d;
+}
+.container div:first-child + div {
+  width: 66.66666666666667%;
+  background: #2dcc70;
+}
+
