@@ -14,9 +14,11 @@ body {
   width: 62.5%;
   height: 500px;
   margin: 0 auto;
-  background: #f7e041;
 }
 
 #wrap p {
-  padding: 40px 4.16666666666667%;
+  width: 52.083333333333336%;
+  padding: 50px 5.208333333333334%;
+  margin: 0 auto;
+  background: #f7e041;
 }
