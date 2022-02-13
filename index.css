@@ -7,26 +7,13 @@
 }
 
 body {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
-#wrap {
-  width: 62.5%; /* 960px */
-  height: 500px;
-  margin: 0 auto;
+#para {
+  font-size: 6em;
 }
 
-#wrap div {
-  width: 31.25%;
-  display: inline-block;
-}
-
-#wrap div:first-child {
-  padding: 50px 5.208333333333334%;
-  background: #1f5a8b;
-}
-
-#wrap div:first-child + div {
-  padding: 130px 13.541666666666666%;
-  background: #f7e041;
+#para p {
+  font-size: 0.6666666666666666em;
 }
