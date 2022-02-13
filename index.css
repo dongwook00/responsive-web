@@ -10,10 +10,15 @@ body {
   box-sizing: border-box;
 }
 
-p {
-  font-size: 5em;
+.vw {
+  font-size: 5vw;
 }
-
-span {
-  font-size: 5rem;
+.vh {
+  font-size: 5vh;
+}
+.vmin {
+  font-size: 5vmin;
+}
+.vmax {
+  font-size: 5vmax;
 }
