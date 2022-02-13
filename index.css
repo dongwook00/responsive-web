@@ -10,10 +10,10 @@ body {
   box-sizing: border-box;
 }
 
-#para {
-  font-size: 6em;
+p {
+  font-size: 5em;
 }
 
-#para p {
-  font-size: 0.6666666666666666em;
+span {
+  font-size: 5rem;
 }
