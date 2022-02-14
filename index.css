@@ -10,15 +10,17 @@ body {
   box-sizing: border-box;
 }
 
-.vw {
-  font-size: 5vw;
+#wrap {
+  width: 62.5%; /* 960px */
+  margin: 0 auto;
 }
-.vh {
-  font-size: 5vh;
+
+#wrap div {
+  width: 50%;
+  display: inline-block;
 }
-.vmin {
-  font-size: 5vmin;
-}
-.vmax {
-  font-size: 5vmax;
+
+img, video {
+  width: 100%;
+  max-width: 100%;
 }
