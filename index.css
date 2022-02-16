@@ -11,20 +11,28 @@ body {
 }
 
 #wrap {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
+  height: 500px;
+  margin: 0 auto;
 }
 
-video, iframe {
-  width: 100%;
-  max-width: 100%;
+@media all and (min-width: 320px) {
+  #wrap {
+    width: 30%;
+    background: #00d2a5;
+  }
 }
 
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+@media all and (min-width: 768px) {
+  #wrap {
+    width: 60%;
+    background: #40b0f9;
+  }
 }
+
+@media all and (min-width: 1024px) {
+  #wrap {
+    width: 90%;
+    background: #f45750;
+  }
+}
+
