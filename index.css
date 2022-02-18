@@ -12,7 +12,7 @@ body {
 
 #wrap {
   display: flex;
-  flex-flow: row wrap-reverse;
+  justify-content: space-around;
   width: 90%;
   height: 500px;
   margin: 0 auto;
@@ -20,7 +20,7 @@ body {
 }
 
 #wrap div {
-  width: 100%;
+  width: 20%;
 }
 
 #wrap div:first-child {
