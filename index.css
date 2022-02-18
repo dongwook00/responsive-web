@@ -12,6 +12,8 @@ body {
 
 #wrap {
   display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
   width: 90%;
   height: 500px;
   margin: 0 auto;
@@ -19,12 +21,11 @@ body {
 }
 
 #wrap div {
-  width: 33.33%;
-  height: 200px;
+  width: 100%;
+  height: 100px;
 }
 
 #wrap div:first-child {
-  align-self: flex-end;
   background: #eb4a24;
 }
 
