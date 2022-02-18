@@ -12,7 +12,6 @@ body {
 
 #wrap {
   display: flex;
-  align-items: center;
   width: 90%;
   height: 500px;
   margin: 0 auto;
@@ -25,6 +24,7 @@ body {
 }
 
 #wrap div:first-child {
+  align-self: flex-end;
   background: #eb4a24;
 }
 
