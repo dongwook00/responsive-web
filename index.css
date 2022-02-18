@@ -13,6 +13,7 @@ body {
 #wrap {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 90%;
   height: 500px;
   margin: 0 auto;
@@ -20,7 +21,7 @@ body {
 }
 
 #wrap div {
-  width: 33.33%;
+  width: 100%;
 }
 
 #wrap div:first-child {
