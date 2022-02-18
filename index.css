@@ -1,35 +1,98 @@
-*,
-*::after,
-*::before {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
 }
 
 #wrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   width: 90%;
-  height: 500px;
   margin: 0 auto;
-  border: 4px solid #000;
 }
 
-#wrap div:first-child {
+.header {
+  display: flex;
+  order: 1;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12.5%;
+  height: 142px;
+  background: #ff6b57;
+}
+
+.header nav {
+  width: 87.5%;
+  min-height: 80px;
+  background: #ff6b57;
+}
+
+.slider_section {
+  order: 2;
+  width: 50%;
+  background: #3c90be;
+}
+
+.gallery_section {
+  order: 3;
+  width: 27.08%;
+  height: 440px;
+  background: #f8de73;
+}
+
+.rankup_section {
+  order: 4;
+  width: 22.92%;
+  background: #00d2a5;
+}
+
+.latest_post_section {
+  order: 5;
+  width: 30%;
+  background: #9cabe4;
+}
+
+.popular_post_section {
+  order: 6;
+  width: 30%;
+  background: #d76817;
+}
+
+.banner_section {
+  display: flex;
+  order: 7;
+  flex-flow: column nowrap;
+  width: 22.92%;
+}
+
+.banner_section div {
   flex: 1 1 0;
-  background: #eb4a24;
 }
 
-#wrap div:nth-child(2) {
-  flex: 1 1 0;
-  background: #1488c8;
+.banner_section div.banner_box_01 {
+  background: #0175bb;
 }
 
-#wrap div:nth-child(3) {
-  flex: 2 2 0;
-  background: #f7e041;
+.banner_section div.banner_box_02 {
+  background: #1261c9;
+}
+
+.social_section {
+  order: 8;
+  width: 17.08%;
+  height: 270px;
+  background: #fe6eda;
+}
+
+.footer {
+  order: 9;
+  width: 100%;
+  height: 94px;
+  background: #474747;
 }
