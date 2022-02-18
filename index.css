@@ -12,8 +12,7 @@ body {
 
 #wrap {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap-reverse;
   width: 90%;
   height: 500px;
   margin: 0 auto;
